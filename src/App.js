@@ -72,7 +72,7 @@ function App() {
               </Grid>
               <Grid item>
                 <Button
-                  disabled={!inputText}
+                  disabled={!inputText.trim()}
                   type="submit"
                   variant="contained"
                   color="primary"
